@@ -1,0 +1,384 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    margin: 5px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+.item{ 
+    padding: 20px 30px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+}
+#space {
+    text-align: center;
+    font-family:Arial;
+    font-weight: 300;
+}
+#Linhas{
+    margin-top:300px;
+    margin-left: 150px;
+}
+#lor1 {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size:60px;
+    font-family:Arial;
+}
+
+#imagens1 {
+    position: absolute;
+    left: 950px;
+    top: 250px;
+    border-radius: 300px 300px 0 0;
+    overflow: hidden;
+}
+
+#imagens2 {
+    position: absolute;
+    left: 1330px;
+    top: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height:250px;
+}
+
+#imagens3 {
+    position: absolute;
+    left: 1525px;
+    top: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+#cowo{
+    position:absolute;
+    writing-mode:vertical-lr;
+    transform:rotate(-180deg);
+    font-family:Arial;
+    font-weight:bolder;
+    font-size: 47px;
+    opacity:0.1;
+    left: 1510px;
+    top: 700px;
+}
+
+
+button:active {
+    transform: translateY(4px);
+}
+
+
+
+#menu2{
+margin-left:40px;
+
+}
+.item2{
+    padding:100px;
+    font-size:20px;
+    font-family:Arial;
+}
+
+
+#imagens4 {
+    position: absolute;
+    margin-top: 400px;
+    left:250px;
+    border-radius: 300px 300px 0 0;
+    overflow: hidden;
+}
+
+#tit1{
+    text-align:right;
+    margin-right: 800px;
+    margin-top: 570px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:orangered;
+    font-weight:300;
+}
+
+#lor2 {
+    margin-left: 995px;
+    margin-top: 5px;
+    font-family:Arial;
+    font-weight:lighter;
+    font-size:53px;
+}
+
+#text1 {
+    margin-left: 995px;
+    line-height:30px;
+    font-family:Arial;
+    font-weight:lighter;
+}
+
+#button2 {
+    position:absolute;
+    margin-left:1000px;
+    margin-top:50px
+}
+
+#calen1{
+    position:absolute;
+    margin-left: 710px;
+    filter:drop-shadow(5px 5px 5px);
+}
+
+#imagens5 {
+    position: absolute;
+    margin-top: 500px;
+    right: 250px;
+    border-radius: 300px 300px 0 0;
+    overflow: hidden;
+}
+
+#tit2 {
+    position:absolute;
+    margin-left: 200px;
+    margin-top: 650px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+    font-weight: 300;
+}
+
+#lor3 {
+    position:absolute;
+    margin-left: 200px;
+    margin-top: 700px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 53px;
+}
+
+#text2 {
+    margin-left: 200px;
+    margin-top:870px;
+    line-height: 30px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+#button3 {
+    position: absolute; 
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+#calen2 {
+    position: absolute;
+    margin-left:1570px;
+    filter: drop-shadow(5px 5px 5px);
+}
+
+#tit3 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 650px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+    font-weight: 300;
+}
+
+#lor4 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 700px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 53px;
+}
+
+#text3 {
+    margin-left: 200px;
+    margin-top: 870px;
+    line-height: 30px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+#button4 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#slide{
+    display:flex;
+    align-items:center;
+
+}
+.slider{
+    position:absolute;
+    width:20%;
+    overflow:hidden;
+    margin-bottom:300px;
+    margin-left:1300px;
+}
+
+.images{
+    display:flex;
+    width:100%;
+}
+
+.images img{
+    height: 700px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+
+.images input{
+    display: none;
+}
+
+.dots{
+    display:flex;
+    justify-content:center;
+    margin: 5px;
+}
+
+.dots label{
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #000000 3px;
+    cursor:pointer;
+    transition: all 0.15s ease;
+    margin:5px;
+}
+
+.dots label:hover{background:orangered} 
+
+#img1:checked ~ .m1 {
+    margin-left:0;
+}
+
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+
+#tit4{
+    text-align:center;
+    margin-top: 400px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:orangered;
+    font-weight:lighter;
+}
+
+#lor5{
+    text-align:center;
+    font-family:Arial;
+    font-weight:lighter;
+    font-size:50px;
+}
+
+.icons{
+    justify-content:space-around;
+    display:flex;
+    align-items:center;
+    gap: 2em;
+    padding:50px;
+}
+ .icons li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        text-align:center
+    }
+
+ .icons li h2{
+     font-family:Arial;
+     font-weight:lighter;
+ }
+
+ .icons li h4{
+     font-family:Arial;
+     font-weight:lighter;
+     opacity:0.5;
+     margin-bottom:300px;
+     line-height:30px;
+ }
+
+#tit5{
+    font-family:Arial;
+    font-weight:lighter;
+    margin-left:100px;
+}
+
+#subt{
+    font-family:Arial;
+    font-weight:lighter;
+    opacity:0.7;
+    margin-left:100px;
+    line-height: 32px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(255,69,0);
+    background: linear-gradient(0deg, rgba(255,69,0,1) 0%, rgba(9,9,121,0) 100%);
+}
+
+
+.listas {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    align-items: start;
+}
+
+.listas ul {
+    flex-direction: column;
+    display:flex;
+}
+
+.listas ul h2{
+   font-family:Arial;
+   color:orangered;
+   font-weight:lighter;
+}
+
+.listas ul h3 {
+   font-family: Arial;
+   font-weight: lighter;
+}
+
+.icones {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:100px;
+    height:100px;
+ 
+}
